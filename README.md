@@ -4,7 +4,7 @@
 
 ## Integrantes 
 - Juan Cruz Mendez
-- Nicolas Larochi
+- Nicolas Larrochi
 - Julian Ortiz 
 - Lucas Torres
 - Joaquin Montiel
