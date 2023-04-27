@@ -10,8 +10,8 @@
 - Joaquin Montiel
 
 
-## Proyecto: Contador binario.
-![Tinkercad](./img/ContadorBinario.jpg)
+## Proyecto: Semaforo.
+![Tinkercad](./img/ContadorBinario.png)
 
 
 ## Descripción
