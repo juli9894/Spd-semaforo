@@ -24,10 +24,6 @@ cruzar.
 Esta funcion enciende y apaga los leds cada cierto rango de tiempo, y controla la frecuencia
 de sonido, y los lapsos de tiempo del piezo.
 
-B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a pines de la placa arduino.
-
-(Breve explicación de la función)
-
 ~~~ C (lenguaje en el que esta escrito)
 void loop()
 {
