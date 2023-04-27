@@ -29,12 +29,39 @@ B0, B1, B2, B3 son #define que utilizamos para agregar los leds, asociandolo a p
 (Breve explicación de la función)
 
 ~~~ C (lenguaje en el que esta escrito)
-void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
+void loop()
 {
-  digitalWrite(B3,estado3);
-  digitalWrite(B2,estado2);
-  digitalWrite(B1,estado1);
-  digitalWrite(B0,estado0);
+  digitalWrite(LED_VERDE1, HIGH); 
+  digitalWrite(LED_VERDE2, HIGH);
+  digitalWrite(LED_VERDE3, HIGH);
+  noTone(PIEZO); 
+  delay(45000); 
+
+  digitalWrite(LED_VERDE1, LOW); 
+  digitalWrite(LED_VERDE2, LOW);
+  digitalWrite(LED_VERDE3, LOW);
+  digitalWrite(LED_AMARILLO1, HIGH); 
+  digitalWrite(LED_AMARILLO2, HIGH);
+  digitalWrite(LED_AMARILLO3, HIGH);
+  for (int i = 0; i < 5; i++) { 
+    tone(PIEZO, 440); 
+    delay(400);
+    noTone(PIEZO);
+    delay(1600); 
+  }
+
+  digitalWrite(LED_AMARILLO1, LOW); 
+  digitalWrite(LED_AMARILLO2, LOW);
+  digitalWrite(LED_AMARILLO3, LOW);
+  digitalWrite(LED_ROJO1, HIGH); 
+  digitalWrite(LED_ROJO2, HIGH);
+  digitalWrite(LED_ROJO3, HIGH);
+  for (int i = 0; i < 30; i++) { 
+    tone(PIEZO, 329); 
+    delay(400);
+    noTone(PIEZO);
+    delay(600);
+  }
 }
 ~~~
 
