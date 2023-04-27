@@ -39,4 +39,4 @@ void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
 ~~~
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/bGMXosfeWJt-1g-dojo-uno-larrochi-nicolas-gaston/editel?sharecode=263m2zKwATqCoa8Coq27JEYd2aZZqxgr7D1R8_IoB30)
+- [ProyectoSemaforo](https://www.tinkercad.com/things/bGMXosfeWJt-1g-dojo-uno-larrochi-nicolas-gaston/editel?sharecode=263m2zKwATqCoa8Coq27JEYd2aZZqxgr7D1R8_IoB30)
